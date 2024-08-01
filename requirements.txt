@@ -1,8 +1,5 @@
 PyMuPDF
 
-pip install -r requirements.txt
-git add requirements.txt
-git commit -m "Add PyMuPDF to requirements"
-git push origin main
+
 
 
