@@ -1,5 +1,5 @@
 import streamlit as st
-import fitz  # PyMuPDF
+import fitz   #PyMuPDF
 
 def extract_text_from_pdf(pdf_file):
     pdf_document = fitz.open(stream=pdf_file.read(), filetype="pdf")
@@ -18,3 +18,4 @@ if uploaded_file is not None:
     st.text_area("Extracted Text", pdf_text, height=800)
 else:
     st.write("Please upload a PDF file to extract text.")
+
